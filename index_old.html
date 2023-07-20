@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Conor Quigley Music</title>
+	<meta name="description" content=".">
+
+	
+	<meta property="og:title" content=" " />
+	<meta property="og:description" 
+  content=" " />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="" />
+
+	<link rel="icon" type="image/png" href="">
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="script/app.js"></script>
+
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	
+	<script>
+		
+		$(document).ready(function() {
+
+			/*
+		    var isshow = sessionStorage.getItem('isshow');
+
+		    if (isshow == null) {
+		        sessionStorage.setItem('isshow', 1);
+
+				$( function() {
+					$( '#dialog' ).dialog({
+						width: 350,
+						height: 538,
+						modal: true,
+						title: '',
+						resizable: false,
+						autoOpen: true,
+						position: {
+							my: 'center top', 
+							at: 'center top+150', 
+							of: window
+						},
+						open: function() {
+							$('.ui-widget-overlay').bind('click', function() {
+								$('#dialog').dialog('close');
+								$('#popvid').attr('src','');
+							})
+						}
+					});
+
+					$("#dialog").prev(".ui-dialog-titlebar").hide();
+				});
+		    }
+			//sessionStorage.removeItem('isshow');
+			*/
+			
+			$('video').bind('play', function (e) 
+				{
+				    var video = $('video');
+				    for(var i=0;i<video.length;i++)
+				    {
+				        if(video[i] != e.target)
+				        {
+				           video[i].pause();
+				        }
+				    }
+				});
+	    });
+
+	</script>
+
+	<style>
+
+		.ui-widget {
+			padding: 0 !important;
+			background: #333;
+			border-radius: 5px;
+		}
+
+		.ui-widget .ui-widget-header {
+		    border: 1px solid #333;
+		    background: #333;
+		    color: #fff;
+		}
+
+		.ui-dialog .ui-dialog-content {
+		    border: 1px solid #333;
+		    padding: 0;
+		    border-radius: 5px;
+		}
+
+		.ui-dialog .ui-dialog-titlebar {
+		    border-radius: 5px 5px 0px 0px;
+		}
+		
+		.ui-dialog-title {
+			font-family: 'Concert One';
+			line-height: 1.8em;
+			font-weight: normal;
+		}
+/*
+		.popvid {
+			width:360px;
+		  	height: auto;
+		  	margin: 0px;
+		}
+
+		#instagram-embed-0 {
+
+			margin-top: -54px !important;
+		}
+
+		@media (min-width: 778px){
+			.ui-dialog .ui-dialog-content {
+				width: 720px;
+				height: 480px;
+			}
+			.ui-widget {
+				width: 720px;
+				height: 480px;
+			}
+		}
+*/
+	</style>
+</head>
+
+<body>
+
+	<main>
+
+		<div class="row">
+			<div class="col">
+			<a href="/"><img class="style-logo" src="images/Inferno.jpeg" alt=""/></a>
+				<div class="hero">
+					<h1>freethewitness</h1>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+
+		<div class="col col-md-one-half">
+
+
+
+
+
+
+
+			<div class="videobox">
+
+					<h3>Stand by Me</h3>
+					<video height="320" width="180" controls preload="metadata" poster="images/stand_by_me.jpg" title="Stand by Me - Conor Quigley Trio at Water Witch Coffee - January 5, 2019" onclick="this.paused ? this.play() : this.pause(); return (false);">
+						<source src="video/stand_by_me.mp4" type="video/mp4">
+					</video>
+			<h5>Conor Quigley Trio at <a href="https://www.facebook.com/waterwitchcoffee/" class="vidlink">Water Witch Coffee</a> - January 5, 2019</h5>
+
+					<h3>Little Wing</h3>
+					<video height="180" width="320" controls preload="none" poster="images/little_wing2.jpg" title="Little Wing - Conor Quigley Trio at Water Witch Coffee - February 9, 2019" onclick="this.paused ? this.play() : this.pause(); return (false);">
+						<source src="video/little_wing2.mp4" type="video/mp4">
+					</video>
+			<h5>Conor Quigley Trio at <a href="https://www.facebook.com/waterwitchcoffee/" class="vidlink">Water Witch Coffee</a> - February 9, 2019</h5>
+
+					<h3>Spirit in the Night</h3>
+					<video height="180" width="320" controls preload="none" poster="images/spirit.jpg" title="Spirit in the Night - Conor Quigley Trio at Water Witch Coffee - January 12, 2019" onclick="this.paused ? this.play() : this.pause(); return (false);">
+						<source src="video/spirit.mp4" type="video/mp4">
+					</video>
+			<h5>Conor Quigley Trio at <a href="https://www.facebook.com/waterwitchcoffee/" class="vidlink">Water Witch Coffee</a> - January 12, 2019</h5>
+
+					<h3>Crocodile Rock</h3>
+					<video height="180" width="320" controls preload="none" poster="images/crocodile_rock.jpg" title="Crocodile Rock - Conor Quigley Trio at Water Witch Coffee - January 12, 2019" onclick="this.paused ? this.play() : this.pause(); return (false);">
+						<source src="video/crocodile_rock.mp4" type="video/mp4">
+					</video>
+			<h5>Conor Quigley Trio at <a href="https://www.facebook.com/waterwitchcoffee/" class="vidlink">Water Witch Coffee</a> - January 12, 2019</h5>
+
+					<h3>Tiny Dancer</h3>
+					<video height="180" width="320" controls preload="none" poster="images/tiny.jpg" title="Tiny Dancer - Conor Quigley Trio at Water Witch Coffee - January 12, 2019" onclick="this.paused ? this.play() : this.pause(); return (false);">
+						<source src="video/tiny.mp4" type="video/mp4">
+					</video>
+			<h5>Conor Quigley Trio at <a href="https://www.facebook.com/waterwitchcoffee/" class="vidlink">Water Witch Coffee</a> - January 12, 2019</h5>
+
+			</div>
+		</div>
+
+
+
+
+
+			<div class="col col-md-one-half">
+				<div class="info-box-tan">
+
+				  	<h2>Upcoming Shows</h2>
+
+
+		  			<div class="shows">
+					  	<ul class="tickets">
+							<li class="date">Friday, June 7</li>
+							<li>7pm</li>
+							<li><a href="https://www.facebook.com/events/2343829412561509/" class="venue">Highlands Bonfire</a></li>
+							<li>Community Center</li>
+							<li>3 Snug Harbor Ave</li>
+							<li>Highlands, NJ</li>
+					  	</ul>
+		  			</div>
+
+		  			<div class="shows">
+				  		<ul class="tickets">
+							<li class="date">Thursday, June 27</li>
+							<li>6-10pm</li><li>&nbsp;</li>
+							<li><a href="/" class="venue">Riley Park</a></li>
+							<li>615 Main St</li>
+							<li>Bradley Beach, NJ</li>
+				  		</ul>
+		  			</div>
+
+		  			<div class="shows">
+				  		<ul class="tickets">
+							<li class="date">Friday, June 28</li>
+							<li>6-10pm</li><li>&nbsp;</li>
+							<li><a href="http://9thavepier.com/" class="venue">9th Ave Pier Bar</a></li>
+							<li>905 Route 35 South</li><li>Belmar, NJ</li>
+				  		</ul>
+		  			</div>
+
+		  			<div class="shows">
+				  		<ul class="tickets">
+							<li class="date">Thursday, July 4</li>
+							<li>6-10pm</li><li>&nbsp;</li>
+							<li><a href="http://9thavepier.com/" class="venue">9th Ave Pier Bar</a></li>
+							<li>905 Route 35 South</li><li>Belmar, NJ</li>
+				  		</ul>
+		  			</div>
+
+		  			<div class="shows">
+					  	<ul class="tickets">
+							<li class="date">Saturday, July 6</li><li>&nbsp;</li>
+							<li>Independence Day</li>
+							<li>Private  Party</li>
+							<li>&nbsp;</li>
+							<li>Jersey Shore, NJ</li>
+					  	</ul>
+		  			</div>
+
+		  			<div class="shows">
+				  		<ul class="tickets">
+							<li class="date">Thursday, August 1</li>
+							<li>6-10pm</li><li>&nbsp;</li>
+							<li><a href="http://9thavepier.com/" class="venue">9th Ave Pier Bar</a></li>
+							<li>905 Route 35 South</li><li>Belmar, NJ</li>
+				  		</ul>
+		  			</div>
+
+		  			<div class="shows">
+				  		<ul class="tickets">
+							<li class="date">Wednesday, August 14</li>
+							<li>6-10pm</li><li>&nbsp;</li>
+							<li><a href="http://9thavepier.com/" class="venue">9th Ave Pier Bar</a></li>
+							<li>905 Route 35 South</li><li>Belmar, NJ</li>
+				  		</ul>
+		  			</div>
+
+		  			<div class="shows">
+				  		<ul class="tickets">
+							<li class="date">Thursday, August 29</li>
+							<li>6-8pm</li><li>&nbsp;</li>
+							<li><a href="http://www.highlandsborough.org/hnj/Events/" class="venue">Summer Concert Series</a></li>
+							<li>Veterans Memorial Park</li><li>Highlands, NJ</li>
+				  		</ul>
+		  			</div>
+
+		  			<div class="shows">
+				  		<ul class="tickets">
+							<li class="date">Sunday, September 1</li>
+							<li>2-5pm</li><li>&nbsp;</li>
+							<li><a href="http://9thavepier.com/" class="venue">9th Ave Pier Bar</a></li>
+							<li>905 Route 35 South</li><li>Belmar, NJ</li>
+				  		</ul>
+		  			</div>
+
+		  			<div class="shows">
+					  	<ul class="tickets">
+							<li class="date">Saturday, September 7</li>
+							<li>&nbsp;</li>
+							<li>&nbsp;</li>
+							<li>Private  Wedding</li>
+							<li>&nbsp;</li>
+							<li>Jersey Shore, NJ</li>
+					  	</ul>
+		  			</div>
+
+		  			<div class="shows">
+					  	<ul class="tickets">
+							<li class="date">Saturday, October 5</li>
+							<li>&nbsp;</li>
+							<li>50th Anniversary</li>
+							<li>Private  Party</li>
+							<li>&nbsp;</li>
+							<li>Greater Philly Area</li>
+					  	</ul>
+		  			</div>
+
+				</div>
+			</div>
+
+
+
+		</div>
+
+
+	</main>
+	
+	<footer>
+		<div class="row">
+			<div class="col">
+				<p class="footer-text">&copy; 2021 Free the Witness</p>
+			</div>
+	</div>
+	</footer>
+
+
+
+
+</body>
+</html>
